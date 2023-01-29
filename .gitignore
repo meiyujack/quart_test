@@ -130,7 +130,3 @@ dmypy.json
 
 # PyCharm
 .idea/
-
-#Poetry
-.lock
-
