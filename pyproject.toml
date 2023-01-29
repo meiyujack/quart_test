@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quart-test"
+version = "0.1.0"
+description = "This is my first time to test quart through poetry in flask way."
+authors = ["meiyujack <meiyujack@msn.cn>"]
+readme = "README.md"
+packages = [{include = "quart_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+quart = "^0.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start="quart_test:run"
